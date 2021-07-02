@@ -8,42 +8,44 @@
   </head>
   <body>
     <nav class="navbar">
-      <h1 class="logo-studion">
-        Studi<span class="copy--primary">on</span>
-        <span class="logo-studion__subtitle">Eventos</span>
-      </h1>
-      <ul class="navbar__links">
-        <li>
-          <a href="#Empresa">
-            Empresa
-          </a>
-        </li>
-        <li>
-          <a href="#Eventos">
-            Eventos
-          </a>
-        </li>
-        <li>
-          <a href="#Galeria">
-            Galeria
-          </a>
-        </li>
-        <li>
-          <a href="#Galeria">
-            Galeria
-          </a>
-        </li>
-        <li>
-          <a href="#Depoimentos">
-            Depoimentos
-          </a>
-        </li>
-        <li>
-          <a href="#Contatos">
-            Contatos
-          </a>
-        </li>
-      </ul>
+      <div class="container navbar__container">
+        <h1 class="logo-studion">
+          Studi<span class="copy--primary">on</span>
+          <span class="logo-studion__subtitle">Eventos</span>
+        </h1>
+        <ul class="navbar__links">
+          <li>
+            <a href="#Empresa">
+              Empresa
+            </a>
+          </li>
+          <li>
+            <a href="#Eventos">
+              Eventos
+            </a>
+          </li>
+          <li>
+            <a href="#Galeria">
+              Galeria
+            </a>
+          </li>
+          <li>
+            <a href="#Galeria">
+              Galeria
+            </a>
+          </li>
+          <li>
+            <a href="#Depoimentos">
+              Depoimentos
+            </a>
+          </li>
+          <li>
+            <a href="#Contatos">
+              Contatos
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <header>
       <div id="slider">
@@ -66,33 +68,47 @@
     </header>
 
     <main>
-      <section>
-        <ul>
+      <section id="counter">
+        <ul class="container counter__container">
           <li>
-            <h3>+ de 500</h3>
-            eventos realizados
+            <h3>
+              + de 500
+              <small>
+                realizados
+              </small>
+            </h3>
           </li>
           <li>
-            <h3>+ de 1.000.000</h3>
-            ingressos vendidos
+            <h3>
+              + de 1.000.000
+              <small>ingressos vendidos </small>
+            </h3>
           </li>
           <li>
-            <h3>+ de 300</h3>
-            empresas atendidas
+            <h3>
+              + de 300
+              <small>
+                empresas atendidas
+              </small>
+            </h3>
           </li>
         </ul>
       </section>
-      <section>
-        <div>
-          <img src="./images/institutional.jpg" />
+      <section class="container institutional">
+        <img
+          class="institutional__image"
+          src="./images/institutional.jpg"
+          alt="studion-institutional"
+        />
+        <div class="institutional__copy">
           <h6>fazemos o seu evento acontecer</h6>
-          <h4>realizamos os melhores eventos.</h4>
+          <h4>Realizamos os melhores eventos.</h4>
           <p>
             Nossa empresa é uma das mais requizitadas do mercado. temos os
-            melhores espaços, profissionais dos mais espcializados. venha fazer
-            parte do nosso quadro de funcionarios.
+            melhores espaços, profissionais espcializados. venha e garanta o seu
+            evento com os melhores.
           </p>
-          <button>Saiba Mais</button>
+          <button class="btn btn__institutional">Saiba Mais</button>
         </div>
       </section>
       <section>
