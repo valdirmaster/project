@@ -1,0 +1,30 @@
+{
+  "name": "javascript",
+  "version": "0.0.1",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "npx live-server src/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx live-server src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdirmaster/project.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javsscript"
+  ],
+  "author": "valdirmaster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valdirmaster/project/issues"
+  },
+  "homepage": "https://github.com/valdirmaster/project#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {},
+  "description": ""
+}
